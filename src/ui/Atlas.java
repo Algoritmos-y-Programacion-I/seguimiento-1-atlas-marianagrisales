@@ -16,6 +16,7 @@ public class Atlas {
 
     // Declaracion de constantes (completar)
     final double COSTO_TRAYECTO_AVION = 250000;
+    final double PrecioNoche = 150.000;
 
 
 	private Atlas() {
@@ -47,8 +48,9 @@ public class Atlas {
         // ...
 
         // Declaracion de salidas calculadas (completar)
-        double totalTransporte;
-        double PrecioNoches=150.000;ja
+        double totalTransporte=250000;
+        double PrecioNoche=150.000;
+
         // Calculo de salidas mediante metodos (completar)
         totalTransporte = calcularTotalTransporte(); // aqui podrian faltar parametros
 	}
